@@ -11,7 +11,7 @@ var maxsum float64
 
 func calculate() {
 	maxsum = (weight / height) / height
-	fmt.Printf("Your BMI is %.2f kg/m2", math.Ceil(maxsum*100)/100) //math.Ceil(x*100)/100
+	fmt.Printf("Your BMI is %f kg/m2", math.Ceil(maxsum*100)/100) //math.Ceil(x*100)/100
 }
 
 func main() {
